@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Weather App</h1>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" placeholder="Enter city">
+
+        <label for="province">Province/State:</label>
+        <input type="text" id="province" placeholder="Enter province or state">
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" placeholder="Enter country">
+
+        <button id="getWeather">Get Weather</button>
+
+        <p id="errorMessage" class="error"></p>
+
+        <div id="weatherResult" class="weather-result">
+
+            <h2 id="location"></h2>
+
+            <p>Temperature: <span id="temperature">--</span></p>
+
+            <p>Feels Like: <span id="feelsLike">--</span></p>
+
+            <p>Wind Speed: <span id="windSpeed">--</span></p>
+
+            <p>Relative Humidity: <span id="humidity">--</span></p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
